@@ -1,0 +1,16 @@
+{
+    "python.defaultInterpreterPath": ".venv/bin/python3",
+    "python.analysis.extraPaths": [
+        "{workspaceFolder}/src"
+    ],
+    "python.analysis.autoImportCompletions": true,
+
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+    "bash": {
+            "path": "/bin/bash",
+            "icon": "terminal-bash",
+            "args": []
+        }
+    }
+}

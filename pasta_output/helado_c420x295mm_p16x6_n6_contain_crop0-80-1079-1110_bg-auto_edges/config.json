@@ -1,0 +1,22 @@
+{
+  "image": "images/helado.png",
+  "colors": 6,
+  "pasta_width": 16.0,
+  "pasta_height": 6.0,
+  "canvas_width": 420.0,
+  "canvas_height": 295.0,
+  "unit": "mm",
+  "fit": "contain",
+  "crop": "0,80,1079,1110",
+  "background": "auto",
+  "bg_tolerance": 12.0,
+  "bg_coverage": 0.5,
+  "bg_from_edges": true,
+  "space": "lab",
+  "seed": 0,
+  "cell_px": 32,
+  "out": "pasta_output",
+  "name": null,
+  "background_rgb": "#111214",
+  "command": "/home/alanglk/amira_mosaic/.venv/bin/python3 src/pasta_mosaic.py images/helado.png --unit mm --canvas-width 420 --canvas-height 295 --pasta-width 16 --pasta-height 6 --fit contain --background auto --bg-from-edges --crop 0,80,1079,1110 -n 6"
+}
